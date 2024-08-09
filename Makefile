@@ -20,7 +20,7 @@ all: ${VM_NAME}.box
 		--cpus 2 \
 		--memsize 4096 \
 		--bios-type efi-arm64 \
-		--device-set hdd0 --size 50000 \
+		--device-set hdd0 --size 100000 \
 		--startup-view headless
 
 	prlctl unregister $@
